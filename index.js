@@ -16,4 +16,4 @@ quoteCounter ++;
   curentQuotes = availableQuotes[quoteIndex];
   randomQuotes.innertext = curentQuotes;
 }
-getQuotes();
+setTimeOut(getQuotes, 3000);
